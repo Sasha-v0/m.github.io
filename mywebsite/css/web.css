@@ -5,6 +5,10 @@ body{
   	margin: 0;
   	font-size: 0.8em;
 }
+a{
+	color: black;
+	font-weight: bolder;
+}
 #main-header{
 	background-color: white;
 	color: black;
@@ -35,17 +39,6 @@ h1 {
 	text-decoration: none;
 	font-size: 1.5em;
 	padding-right: 20px;
-}
-#navbar ol {
-	display: inline;
-	border: 1px #ccc solid;
-	padding: 10px;
-	border-radius:5px; 
-	border-color: blue;
-	background-color: blue;
-	color:black;
-	border-top: 2px;
-	border-bottom: 2px;
 }
 #navbar-nd{
 	background-color: white;
