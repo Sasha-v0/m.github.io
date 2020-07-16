@@ -1,0 +1,122 @@
+body{
+	background-image: url('../images/coffe.jpg');
+	font: normal 16px FreeMono, monospace;
+	line-height: 1em;
+  	margin: 0;
+  	font-size: 0.8em;
+}
+#main-header{
+	background-color: white;
+	color: black;
+	margin: 0;
+	padding: 5px;
+	padding-left: 45px;
+}
+h1 {
+	margin: 30px;
+}
+#navbar{
+	background-color: white;
+	color: black;
+	margin-top: -60px;
+	padding-left: 50%;
+}
+#navbar ul {
+	padding: 0;
+	list-style: none;
+}
+#navbar li {
+	display: inline;
+}
+#navbar a:hover{
+	color:blue;
+}
+#navbar a{
+	text-decoration: none;
+	font-size: 1.5em;
+	padding-right: 20px;
+}
+#navbar ol {
+	display: inline;
+	border: 1px #ccc solid;
+	padding: 10px;
+	border-radius:5px; 
+	border-color: blue;
+	background-color: blue;
+	color:black;
+	border-top: 2px;
+	border-bottom: 2px;
+}
+#navbar-nd{
+	background-color: white;
+	color: black;
+	margin-top: -27px;
+	padding-left: 78.5%;
+}
+#navbar-nd ul {
+	padding: 0;
+	list-style: none;
+}
+#navbar-nd a{
+	color:white;
+	text-decoration: none;
+	font-size: 1.5em;
+	padding-right: 20px;
+}
+#navbar-nd li {
+	border: 1px #ccc solid;
+	display: inline;
+	padding: 15px;
+	border-radius:4.5px; 
+	border-color: blue;
+	background-color: blue;
+	border-width: 0.5px;
+	font-weight: bolder;
+}
+#navbar-sd{
+	background-color: white;
+	color: black;
+	margin-top: -26px;
+	padding-left: 86.5%;
+}
+#navbar-sd ul {
+	padding: 0;
+	list-style: none;
+}
+#navbar-sd a{
+	color:blue;
+	text-decoration: none;
+	font-size: 1.5em;
+	padding-right: 20px;
+}
+#navbar-sd li {
+	border: 1px #ccc solid;
+	padding: 15px;
+	border-radius:4.5px; 
+	border-color: blue;
+	background-color: white;
+	border-width: 0.5px;
+	display: inline;
+	font-weight: bolder;
+}
+.meda{
+	padding-top: 500px;
+	padding-left: 50px;
+	font-size: 120%;
+}
+.meda-2{
+	padding-left: 80px;
+	font-size:150%;
+	width: 35%;
+	line-height: 150%;
+}
+.block{
+	float:left;
+	width:33.3%;
+	border:1px solid none;
+	padding: 10%;
+	box-sizing: border-box;
+	font-size:130%;
+	line-height: 150%;
+	height:0;
+}
