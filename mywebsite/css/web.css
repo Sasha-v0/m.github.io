@@ -8,17 +8,49 @@ body{
 a{
 	color: black;
 	font-weight: bolder;
+	text-decoration: none;
+	display: inline-block;
+}
+ a:hover{
+	color:blue;
 }
 #main-header{
 	background-color: white;
 	color: black;
 	margin: 0;
-	padding: 5px;
+ 	padding: 7px;
 	padding-left: 45px;
 }
 h1 {
 	margin: 30px;
 }
+
+.button:hover {
+  background-color: black;
+  color: white;
+}
+
+.bbb:hover{
+	color: blue;
+}
+
+.button	{
+	border: 1px blue solid;
+	padding: 15px;
+	border-radius: 5px;
+	background-color: blue;
+	color:white;
+}
+
+.bbb{
+	border: 1px blue solid;
+	padding: 15px;
+	border-radius: 5px;
+	background-color: white;
+	color:blue;
+
+}
+
 #navbar{
 	background-color: white;
 	color: black;
@@ -29,79 +61,20 @@ h1 {
 	padding: 0;
 	list-style: none;
 }
-#navbar li {
-	display: inline;
-}
-#navbar a:hover{
-	color:blue;
-}
+
 #navbar a{
 	text-decoration: none;
 	font-size: 1.5em;
 	padding-right: 20px;
 }
-#navbar-nd{
-	background-color: white;
-	color: black;
-	margin-top: -27px;
-	padding-left: 78.5%;
-}
-#navbar-nd ul {
-	padding: 0;
-	list-style: none;
-}
-#navbar-nd a{
-	color:white;
-	text-decoration: none;
-	font-size: 1.5em;
-	padding-right: 20px;
-}
-#navbar-nd a:hover{
-	color: inherit;
-}	
-#navbar-nd li {
-	border: 1px #ccc solid;
+#navbar li {
 	display: inline;
-	padding: 15px;
-	border-radius:4.5px; 
-	border-color: blue;
-	background-color: blue;
-	border-width: 0.5px;
-	font-weight: bolder;
 }
-#navbar-sd{
-	background-color: white;
-	color: black;
-	margin-top: -26px;
-	padding-left: 86.5%;
-}
-#navbar-sd ul {
-	padding: 0;
-	list-style: none;
-}
-#navbar-sd a{
-	color:blue;
-	text-decoration: none;
-	font-size: 1.5em;
-	padding-right: 20px;
-}
-#navbar-sd a:hover{
-	color:inherit;
-}
-#navbar-sd li {
-	border: 1px #ccc solid;
-	padding: 15px;
-	border-radius:4.5px; 
-	border-color: blue;
-	background-color: white;
-	border-width: 0.5px;
-	display: inline;
-	font-weight: bolder;
-}
+
 .meda{
 	padding-top: 500px;
 	padding-left: 50px;
-	font-size: 150%;
+	font-size: 300%;
 }
 .meda-2{
 	padding-left: 80px;
@@ -110,9 +83,8 @@ h1 {
 	line-height: 150%;
 }
 .block{
-	border-bottom: 50%;
 	float:left;
-	width:33.33333333333%;
+	width:33.3333333333333%;
 	border:1px solid white;
 	font-size:150%;
 	line-height: 150%;
@@ -121,6 +93,5 @@ h1 {
 	padding: 100px;
 	box-sizing: border-box;
 	position: relative;
-	top: 240px;
-
+	top: 215px;
 }
